@@ -71,7 +71,7 @@ const Footer = () => {
 
           <div className="d-flex gap-2 mt-3">
             <div className="bg-secondary rounded-circle p-3"><i class="bi bi-twitter-x"></i></div>
-            <div className="bg-secondary rounded-circle p-3"><i class="bi bi-facebook"></i></div>
+            {/* <div className="bg-secondary rounded-circle p-3"><i class="bi bi-facebook"></i></div> */}
             <div className="bg-secondary rounded-circle p-3"><i class="bi bi-instagram"></i></div>
             <div className="bg-secondary rounded-circle p-3"><i class="bi bi-linkedin"></i></div>
           </div>
