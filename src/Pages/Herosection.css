@@ -1,0 +1,68 @@
+.hero h1{
+    font-family: Nunito, sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+color: rgb(1, 41, 112);
+}
+
+.hero p{
+    font-family: Roboto, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: rgb(33, 37, 41);
+}
+
+#trust h2{
+    font-family: Nunito, sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+color: rgb(1, 41, 112);
+}
+
+#trust p{
+    font-family: Roboto, sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: rgb(33, 37, 41);
+}
+
+#s h3{
+    font-family: Nunito, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 54px;
+color: rgb(1, 41, 112);
+}
+
+#s p{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+color: rgb(33, 37, 41);
+}
+
+
+#vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+#faq h2{
+      font-family: Nunito, sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+color: rgb(1, 41, 112);
+}
